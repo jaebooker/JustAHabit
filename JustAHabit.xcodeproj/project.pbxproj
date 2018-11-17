@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		0D058A70219FAA0000AA592F /* Habit.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0D058A6F219FAA0000AA592F /* Habit.swift */; };
 		0D1DBB91219E0A1300CD0C4A /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0D1DBB90219E0A1300CD0C4A /* AppDelegate.swift */; };
 		0D1DBB99219E0A1300CD0C4A /* JustAHabit.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 0D1DBB97219E0A1300CD0C4A /* JustAHabit.xcdatamodeld */; };
 		0D1DBB9B219E0A1500CD0C4A /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 0D1DBB9A219E0A1500CD0C4A /* Assets.xcassets */; };
@@ -36,6 +37,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		0D058A6F219FAA0000AA592F /* Habit.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Habit.swift; sourceTree = "<group>"; };
 		0D1DBB8D219E0A1300CD0C4A /* JustAHabit.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = JustAHabit.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		0D1DBB90219E0A1300CD0C4A /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		0D1DBB98219E0A1300CD0C4A /* JustAHabit.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = JustAHabit.xcdatamodel; sourceTree = "<group>"; };
@@ -107,6 +109,7 @@
 				0D1DBB9C219E0A1500CD0C4A /* LaunchScreen.storyboard */,
 				0D1DBB9F219E0A1500CD0C4A /* Info.plist */,
 				0D1DBB97219E0A1300CD0C4A /* JustAHabit.xcdatamodeld */,
+				0D058A6F219FAA0000AA592F /* Habit.swift */,
 			);
 			path = JustAHabit;
 			sourceTree = "<group>";
@@ -271,6 +274,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				0D1DBBC7219E2EA700CD0C4A /* UIVIewControllerExtensions.swift in Sources */,
+				0D058A70219FAA0000AA592F /* Habit.swift in Sources */,
 				0D1DBB99219E0A1300CD0C4A /* JustAHabit.xcdatamodeld in Sources */,
 				0D1DBB91219E0A1300CD0C4A /* AppDelegate.swift in Sources */,
 				0D1DBBC3219E1B0800CD0C4A /* HabitsTableViewController.swift in Sources */,

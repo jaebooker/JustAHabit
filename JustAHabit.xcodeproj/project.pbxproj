@@ -8,13 +8,14 @@
 
 /* Begin PBXBuildFile section */
 		0D1DBB91219E0A1300CD0C4A /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0D1DBB90219E0A1300CD0C4A /* AppDelegate.swift */; };
-		0D1DBB93219E0A1300CD0C4A /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0D1DBB92219E0A1300CD0C4A /* ViewController.swift */; };
-		0D1DBB96219E0A1300CD0C4A /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0D1DBB94219E0A1300CD0C4A /* Main.storyboard */; };
 		0D1DBB99219E0A1300CD0C4A /* JustAHabit.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 0D1DBB97219E0A1300CD0C4A /* JustAHabit.xcdatamodeld */; };
 		0D1DBB9B219E0A1500CD0C4A /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 0D1DBB9A219E0A1500CD0C4A /* Assets.xcassets */; };
 		0D1DBB9E219E0A1500CD0C4A /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0D1DBB9C219E0A1500CD0C4A /* LaunchScreen.storyboard */; };
 		0D1DBBA9219E0A1500CD0C4A /* JustAHabitTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0D1DBBA8219E0A1500CD0C4A /* JustAHabitTests.swift */; };
 		0D1DBBB4219E0A1500CD0C4A /* JustAHabitUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0D1DBBB3219E0A1500CD0C4A /* JustAHabitUITests.swift */; };
+		0D1DBBC3219E1B0800CD0C4A /* HabitsTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0D1DBBC1219E1B0800CD0C4A /* HabitsTableViewController.swift */; };
+		0D1DBBC4219E1B0800CD0C4A /* HabitsTableViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 0D1DBBC2219E1B0800CD0C4A /* HabitsTableViewController.xib */; };
+		0D1DBBC7219E2EA700CD0C4A /* UIVIewControllerExtensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0D1DBBC6219E2EA700CD0C4A /* UIVIewControllerExtensions.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -37,8 +38,6 @@
 /* Begin PBXFileReference section */
 		0D1DBB8D219E0A1300CD0C4A /* JustAHabit.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = JustAHabit.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		0D1DBB90219E0A1300CD0C4A /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		0D1DBB92219E0A1300CD0C4A /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
-		0D1DBB95219E0A1300CD0C4A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		0D1DBB98219E0A1300CD0C4A /* JustAHabit.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = JustAHabit.xcdatamodel; sourceTree = "<group>"; };
 		0D1DBB9A219E0A1500CD0C4A /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		0D1DBB9D219E0A1500CD0C4A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -49,6 +48,9 @@
 		0D1DBBAF219E0A1500CD0C4A /* JustAHabitUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = JustAHabitUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		0D1DBBB3219E0A1500CD0C4A /* JustAHabitUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = JustAHabitUITests.swift; sourceTree = "<group>"; };
 		0D1DBBB5219E0A1500CD0C4A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		0D1DBBC1219E1B0800CD0C4A /* HabitsTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HabitsTableViewController.swift; sourceTree = "<group>"; };
+		0D1DBBC2219E1B0800CD0C4A /* HabitsTableViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = HabitsTableViewController.xib; sourceTree = "<group>"; };
+		0D1DBBC6219E2EA700CD0C4A /* UIVIewControllerExtensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UIVIewControllerExtensions.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -100,8 +102,7 @@
 			isa = PBXGroup;
 			children = (
 				0D1DBB90219E0A1300CD0C4A /* AppDelegate.swift */,
-				0D1DBB92219E0A1300CD0C4A /* ViewController.swift */,
-				0D1DBB94219E0A1300CD0C4A /* Main.storyboard */,
+				0D1DBBC5219E1DE400CD0C4A /* Views */,
 				0D1DBB9A219E0A1500CD0C4A /* Assets.xcassets */,
 				0D1DBB9C219E0A1500CD0C4A /* LaunchScreen.storyboard */,
 				0D1DBB9F219E0A1500CD0C4A /* Info.plist */,
@@ -126,6 +127,16 @@
 				0D1DBBB5219E0A1500CD0C4A /* Info.plist */,
 			);
 			path = JustAHabitUITests;
+			sourceTree = "<group>";
+		};
+		0D1DBBC5219E1DE400CD0C4A /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				0D1DBBC1219E1B0800CD0C4A /* HabitsTableViewController.swift */,
+				0D1DBBC6219E2EA700CD0C4A /* UIVIewControllerExtensions.swift */,
+				0D1DBBC2219E1B0800CD0C4A /* HabitsTableViewController.xib */,
+			);
+			path = Views;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -233,8 +244,8 @@
 			buildActionMask = 2147483647;
 			files = (
 				0D1DBB9E219E0A1500CD0C4A /* LaunchScreen.storyboard in Resources */,
+				0D1DBBC4219E1B0800CD0C4A /* HabitsTableViewController.xib in Resources */,
 				0D1DBB9B219E0A1500CD0C4A /* Assets.xcassets in Resources */,
-				0D1DBB96219E0A1300CD0C4A /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -259,9 +270,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				0D1DBBC7219E2EA700CD0C4A /* UIVIewControllerExtensions.swift in Sources */,
 				0D1DBB99219E0A1300CD0C4A /* JustAHabit.xcdatamodeld in Sources */,
-				0D1DBB93219E0A1300CD0C4A /* ViewController.swift in Sources */,
 				0D1DBB91219E0A1300CD0C4A /* AppDelegate.swift in Sources */,
+				0D1DBBC3219E1B0800CD0C4A /* HabitsTableViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -297,14 +309,6 @@
 /* End PBXTargetDependency section */
 
 /* Begin PBXVariantGroup section */
-		0D1DBB94219E0A1300CD0C4A /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				0D1DBB95219E0A1300CD0C4A /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
 		0D1DBB9C219E0A1500CD0C4A /* LaunchScreen.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (

@@ -22,22 +22,30 @@ class HabitsTableViewController: UITableViewController {
         return habits.count
     }
     override func tableView(_ tableView: UITableView, cellForRowAt indexPath: IndexPath) -> UITableViewCell {
-        var cell: UITableViewCell
-        if let dequeueCell = tableView.dequeueReusableCell(withIdentifier: "cell") {
-            cell = dequeueCell
-        } else {
-            cell = UITableViewCell(style: .default, reuseIdentifier: "cell")
-        }
-        let name = names[indexPath.row]
-        cell.textLabel?.text = name
+        let cell = tableView.dequeueReusableCell( withIdentifier: HabitTableViewCell.identifier, for: indexPath) as! HabitTableViewCell
         let habit = habits[indexPath.row]
-        cell.textLabel?.text = habit.title
+        cell.configure(habit)
         return cell
     }
+//        if let dequeueCell = tableView.dequeueReusableCell(withIdentifier: "cell") {
+//            cell = dequeueCell
+//        } else {
+//            cell = UITableViewCell(style: .default, reuseIdentifier: "cell")
+//        }
+//        let name = names[indexPath.row]
+//        cell.textLabel?.text = name
+//        let habit = habits[indexPath.row]
+//        cell.textLabel?.text = habit.title
+//        return cell
+//    }
 
     override func viewDidLoad() {
         super.viewDidLoad()
         setupNavBar()
+        tableView.register(
+        HabitTableViewCell.nib,
+        forCellReuseIdentifier: HabitTableViewCell.identifier
+        )
     }
 }
 extension HabitsTableViewController {

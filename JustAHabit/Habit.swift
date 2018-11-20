@@ -9,7 +9,7 @@
 import Foundation
 import UIKit
 
-struct Habit {
+struct Habit: Codable {
     let dataCreated: Date = Date()
     
     var title: String
@@ -23,7 +23,7 @@ struct Habit {
         return lastCompletionDate?.isToday ?? false
     }
     
-    enum Images: Int, CaseIterable {
+    enum Images: Int, CaseIterable, Codable {
         case book
         case murder
         case treason

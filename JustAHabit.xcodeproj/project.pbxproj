@@ -71,6 +71,7 @@
 		0D87BF8621A37A9500C44210 /* pet.png in Resources */ = {isa = PBXBuildFile; fileRef = 0D87BF5521A37A9500C44210 /* pet.png */; };
 		0D87BF8D21A393A700C44210 /* HabitTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0D87BF8B21A393A700C44210 /* HabitTableViewCell.swift */; };
 		0D87BF8E21A393A700C44210 /* HabitTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 0D87BF8C21A393A700C44210 /* HabitTableViewCell.xib */; };
+		0D87BF9021A40D7700C44210 /* PersistenceLayer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0D87BF8F21A40D7700C44210 /* PersistenceLayer.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -161,6 +162,7 @@
 		0D87BF5521A37A9500C44210 /* pet.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = pet.png; sourceTree = "<group>"; };
 		0D87BF8B21A393A700C44210 /* HabitTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HabitTableViewCell.swift; sourceTree = "<group>"; };
 		0D87BF8C21A393A700C44210 /* HabitTableViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = HabitTableViewCell.xib; sourceTree = "<group>"; };
+		0D87BF8F21A40D7700C44210 /* PersistenceLayer.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PersistenceLayer.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -221,6 +223,7 @@
 				0D1DBB97219E0A1300CD0C4A /* JustAHabit.xcdatamodeld */,
 				0D058A6F219FAA0000AA592F /* Habit.swift */,
 				0D87BF1B219FCFEA00C44210 /* DateExtensions.swift */,
+				0D87BF8F21A40D7700C44210 /* PersistenceLayer.swift */,
 			);
 			path = JustAHabit;
 			sourceTree = "<group>";
@@ -522,6 +525,7 @@
 				0D1DBBC7219E2EA700CD0C4A /* UIVIewControllerExtensions.swift in Sources */,
 				0D058A70219FAA0000AA592F /* Habit.swift in Sources */,
 				0D1DBB99219E0A1300CD0C4A /* JustAHabit.xcdatamodeld in Sources */,
+				0D87BF9021A40D7700C44210 /* PersistenceLayer.swift in Sources */,
 				0D1DBB91219E0A1300CD0C4A /* AppDelegate.swift in Sources */,
 				0D1DBBC3219E1B0800CD0C4A /* HabitsTableViewController.swift in Sources */,
 				0D87BF8D21A393A700C44210 /* HabitTableViewCell.swift in Sources */,

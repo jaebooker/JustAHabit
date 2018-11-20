@@ -17,8 +17,45 @@
             <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="KGk-i7-Jjw" id="H2p-sc-9uM">
                 <rect key="frame" x="0.0" y="0.0" width="286" height="43.5"/>
                 <autoresizingMask key="autoresizingMask"/>
+                <subviews>
+                    <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="HYu-qm-d9w">
+                        <rect key="frame" x="0.0" y="0.0" width="160" height="43.5"/>
+                    </imageView>
+                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="vlx-tx-7vv">
+                        <rect key="frame" x="172" y="0.0" width="42" height="43.5"/>
+                        <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                        <nil key="textColor"/>
+                        <nil key="highlightedColor"/>
+                    </label>
+                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="t3E-AY-wIS">
+                        <rect key="frame" x="216" y="0.0" width="42" height="43.5"/>
+                        <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                        <nil key="textColor"/>
+                        <nil key="highlightedColor"/>
+                    </label>
+                </subviews>
+                <constraints>
+                    <constraint firstItem="t3E-AY-wIS" firstAttribute="leading" secondItem="HYu-qm-d9w" secondAttribute="trailing" constant="56" id="1c0-5p-BQA"/>
+                    <constraint firstItem="HYu-qm-d9w" firstAttribute="leading" secondItem="H2p-sc-9uM" secondAttribute="leading" id="2q4-S1-spb"/>
+                    <constraint firstAttribute="bottom" secondItem="t3E-AY-wIS" secondAttribute="bottom" id="D9P-en-KX1"/>
+                    <constraint firstAttribute="bottom" secondItem="HYu-qm-d9w" secondAttribute="bottom" id="N70-H7-c0j"/>
+                    <constraint firstItem="HYu-qm-d9w" firstAttribute="top" secondItem="H2p-sc-9uM" secondAttribute="top" id="O4Y-po-q9H"/>
+                    <constraint firstItem="t3E-AY-wIS" firstAttribute="leading" secondItem="vlx-tx-7vv" secondAttribute="trailing" constant="2" id="cb8-3L-usc"/>
+                    <constraint firstItem="t3E-AY-wIS" firstAttribute="leading" secondItem="vlx-tx-7vv" secondAttribute="trailing" constant="2" id="fSx-ux-12Y"/>
+                    <constraint firstAttribute="bottom" secondItem="vlx-tx-7vv" secondAttribute="bottom" id="njH-NH-7Sg"/>
+                    <constraint firstItem="t3E-AY-wIS" firstAttribute="top" secondItem="H2p-sc-9uM" secondAttribute="top" id="olr-FD-kbO"/>
+                    <constraint firstItem="vlx-tx-7vv" firstAttribute="top" secondItem="H2p-sc-9uM" secondAttribute="top" id="s4i-Zl-yPa"/>
+                    <constraint firstItem="vlx-tx-7vv" firstAttribute="leading" secondItem="H2p-sc-9uM" secondAttribute="leading" constant="172" id="sTV-ge-Vqv"/>
+                    <constraint firstAttribute="trailing" secondItem="t3E-AY-wIS" secondAttribute="trailing" constant="28" id="xgX-Ip-rHV"/>
+                </constraints>
             </tableViewCellContentView>
             <viewLayoutGuide key="safeArea" id="njF-e1-oar"/>
+            <connections>
+                <outlet property="imageViewIcon" destination="HYu-qm-d9w" id="dij-rA-v5c"/>
+                <outlet property="labelHabitTitle" destination="vlx-tx-7vv" id="o1p-EA-3Pu"/>
+                <outlet property="labelStreaks" destination="t3E-AY-wIS" id="xQe-rB-7KA"/>
+            </connections>
+            <point key="canvasLocation" x="116.8" y="184.40779610194903"/>
         </tableViewCell>
     </objects>
 </document>

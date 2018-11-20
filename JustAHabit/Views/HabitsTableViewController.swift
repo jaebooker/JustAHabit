@@ -12,10 +12,10 @@ class HabitsTableViewController: UITableViewController {
     
     var names: [String] = ["Moony", "Wormtail", "Padfoot", "Prongs"]
     var habits: [Habit] = [
-        Habit(title: "Smoking"),
-        Habit(title: "Drinking"),
-        Habit(title: "Running over pedestrians"),
-        Habit(title: "Eating dust")
+        Habit(title: "Smoking", image: Habit.Images.book),
+        Habit(title: "Drinking", image: Habit.Images.book),
+        Habit(title: "Running over pedestrians", image: Habit.Images.book),
+        Habit(title: "Eating dust", image: Habit.Images.book)
     ]
     override func tableView(_ tableView: UITableView, numberOfRowsInSection section: Int) -> Int {
         return names.count

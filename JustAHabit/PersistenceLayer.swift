@@ -19,6 +19,13 @@ struct PersistenceLayer {
         }
         self.habits = habits
     }
+    private func saveHabits() {
+        guard let habitsData = try? JSONEncoder().encode(self.habits) else {
+            fatalError("failed to encode list of habits")
+        }
+        let userDefaults = UserDefaults.standard
+        userDefaults.set(habitsData, forKey: PersistenceLayer.userDefaultsHabitKeyValue)
+    }
     init() {
         self.loadHabits()
     }

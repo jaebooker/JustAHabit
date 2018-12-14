@@ -10,9 +10,8 @@ import Foundation
 import UIKit
 
 struct Habit: Codable {
-    let dataCreated: Date = Date()
-    
     var title: String
+    let dateCreated: Date = Date()
     var selectedImage: Habit.Images
     var currentStreak: Int = 0
     var bestStreak: Int = 0
@@ -23,32 +22,36 @@ struct Habit: Codable {
         return lastCompletionDate?.isToday ?? false
     }
     
-    enum Images: Int, CaseIterable, Codable {
-        case book
-        case murder
-        case treason
-        case pedestrianCrushing
-        case eatingDust
-        case eatingCorpses
-        case napping
-        case becomingOneWithTheUniverse
-        case lickingShrimp
-        case readingTheIngredientsAtTheSuperMarket
-        case namingKidsJoe
-        var image: UIImage {
-            guard let image = UIImage(named: String(describing: self)) else {
-                fatalError("image \(self) not found")
-            }
-//        var image: UIImage {
-//            guard let image = UIImage(named: "dayofDead.jpg") else {
-//                fatalError("image \(self) not found, m8, keep lookin")
-//            }
-            return image
-        }
-    }
-    //image: UIImage)
     init(title: String, image: Habit.Images) {
         self.title = title
         self.selectedImage = image
     }
+    
+    enum Images: Int, Codable, CaseIterable {
+        case book
+        case bulb
+        case clock
+        case code
+        case drop
+        case food
+        case grow
+        case gym
+        case heart
+        case lotus
+        case other
+        case pet
+        case pill
+        case search
+        case sleep
+        case tooth
+        
+        var image: UIImage {
+            guard let image = UIImage(named: String(describing: self)) else {
+                fatalError("image \(self) not found")
+            }
+            
+            return image
+        }
+    }
+    
 }

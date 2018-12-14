@@ -45,6 +45,15 @@ struct PersistenceLayer {
         self.saveHabits()
         return updatedHabit
     }
+    mutating func swapHabits(habitIndex: Int, destinationIndex: Int) {
+        let habitToSwap = self.habits[habitIndex]
+        self.habits.remove(at: habitIndex)
+        self.habits.insert(habitToSwap, at: destinationIndex)
+        self.saveHabits()
+    }
+    mutating func setNeedsToReloadHabits() {
+        self.loadHabits()
+    }
     private mutating func deleteHabit( _habitIndex: Int) {
         self.habits.remove(at: _habitIndex)
         self.saveHabits() //persist changes made

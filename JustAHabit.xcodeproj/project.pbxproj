@@ -17,6 +17,15 @@
 		0D1DBBC3219E1B0800CD0C4A /* HabitsTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0D1DBBC1219E1B0800CD0C4A /* HabitsTableViewController.swift */; };
 		0D1DBBC4219E1B0800CD0C4A /* HabitsTableViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 0D1DBBC2219E1B0800CD0C4A /* HabitsTableViewController.xib */; };
 		0D1DBBC7219E2EA700CD0C4A /* UIVIewControllerExtensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0D1DBBC6219E2EA700CD0C4A /* UIVIewControllerExtensions.swift */; };
+		0D3BFFF021B701970032994A /* AddHabitViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0D3BFFEE21B701970032994A /* AddHabitViewController.swift */; };
+		0D3BFFF121B701970032994A /* AddHabitViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 0D3BFFEF21B701970032994A /* AddHabitViewController.xib */; };
+		0D3BFFF421B70DA40032994A /* HabitImageCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0D3BFFF221B70DA40032994A /* HabitImageCollectionViewCell.swift */; };
+		0D3BFFF521B70DA40032994A /* HabitImageCollectionViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 0D3BFFF321B70DA40032994A /* HabitImageCollectionViewCell.xib */; };
+		0D48925221C352B1003B7B22 /* DateExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0D48925121C352B1003B7B22 /* DateExtension.swift */; };
+		0D48925721C35807003B7B22 /* ConfirmHabitViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0D48925521C35807003B7B22 /* ConfirmHabitViewController.swift */; };
+		0D48925821C35807003B7B22 /* ConfirmHabitViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 0D48925621C35807003B7B22 /* ConfirmHabitViewController.xib */; };
+		0D48925B21C37986003B7B22 /* HabitDetailedViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0D48925921C37986003B7B22 /* HabitDetailedViewController.swift */; };
+		0D48925C21C37986003B7B22 /* HabitDetailedViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 0D48925A21C37986003B7B22 /* HabitDetailedViewController.xib */; };
 		0D87BF1C219FCFEA00C44210 /* DateExtensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0D87BF1B219FCFEA00C44210 /* DateExtensions.swift */; };
 		0D87BF1E21A3767100C44210 /* dayofDead.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 0D87BF1D21A3767100C44210 /* dayofDead.jpg */; };
 		0D87BF2021A37A7600C44210 /* Icons.zip in Resources */ = {isa = PBXBuildFile; fileRef = 0D87BF1F21A37A7600C44210 /* Icons.zip */; };
@@ -108,6 +117,15 @@
 		0D1DBBC1219E1B0800CD0C4A /* HabitsTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HabitsTableViewController.swift; sourceTree = "<group>"; };
 		0D1DBBC2219E1B0800CD0C4A /* HabitsTableViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = HabitsTableViewController.xib; sourceTree = "<group>"; };
 		0D1DBBC6219E2EA700CD0C4A /* UIVIewControllerExtensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UIVIewControllerExtensions.swift; sourceTree = "<group>"; };
+		0D3BFFEE21B701970032994A /* AddHabitViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddHabitViewController.swift; sourceTree = "<group>"; };
+		0D3BFFEF21B701970032994A /* AddHabitViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = AddHabitViewController.xib; sourceTree = "<group>"; };
+		0D3BFFF221B70DA40032994A /* HabitImageCollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HabitImageCollectionViewCell.swift; sourceTree = "<group>"; };
+		0D3BFFF321B70DA40032994A /* HabitImageCollectionViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = HabitImageCollectionViewCell.xib; sourceTree = "<group>"; };
+		0D48925121C352B1003B7B22 /* DateExtension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DateExtension.swift; sourceTree = "<group>"; };
+		0D48925521C35807003B7B22 /* ConfirmHabitViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ConfirmHabitViewController.swift; sourceTree = "<group>"; };
+		0D48925621C35807003B7B22 /* ConfirmHabitViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = ConfirmHabitViewController.xib; sourceTree = "<group>"; };
+		0D48925921C37986003B7B22 /* HabitDetailedViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HabitDetailedViewController.swift; sourceTree = "<group>"; };
+		0D48925A21C37986003B7B22 /* HabitDetailedViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = HabitDetailedViewController.xib; sourceTree = "<group>"; };
 		0D87BF1B219FCFEA00C44210 /* DateExtensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DateExtensions.swift; sourceTree = "<group>"; };
 		0D87BF1D21A3767100C44210 /* dayofDead.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = dayofDead.jpg; sourceTree = "<group>"; };
 		0D87BF1F21A37A7600C44210 /* Icons.zip */ = {isa = PBXFileReference; lastKnownFileType = archive.zip; path = Icons.zip; sourceTree = "<group>"; };
@@ -254,7 +272,16 @@
 				0D1DBBC6219E2EA700CD0C4A /* UIVIewControllerExtensions.swift */,
 				0D1DBBC2219E1B0800CD0C4A /* HabitsTableViewController.xib */,
 				0D87BF8B21A393A700C44210 /* HabitTableViewCell.swift */,
+				0D3BFFEE21B701970032994A /* AddHabitViewController.swift */,
 				0D87BF8C21A393A700C44210 /* HabitTableViewCell.xib */,
+				0D3BFFEF21B701970032994A /* AddHabitViewController.xib */,
+				0D3BFFF221B70DA40032994A /* HabitImageCollectionViewCell.swift */,
+				0D3BFFF321B70DA40032994A /* HabitImageCollectionViewCell.xib */,
+				0D48925121C352B1003B7B22 /* DateExtension.swift */,
+				0D48925521C35807003B7B22 /* ConfirmHabitViewController.swift */,
+				0D48925621C35807003B7B22 /* ConfirmHabitViewController.xib */,
+				0D48925921C37986003B7B22 /* HabitDetailedViewController.swift */,
+				0D48925A21C37986003B7B22 /* HabitDetailedViewController.xib */,
 			);
 			path = Views;
 			sourceTree = "<group>";
@@ -444,7 +471,9 @@
 			buildActionMask = 2147483647;
 			files = (
 				0D87BF7B21A37A9500C44210 /* gym.png in Resources */,
+				0D3BFFF521B70DA40032994A /* HabitImageCollectionViewCell.xib in Resources */,
 				0D87BF7F21A37A9500C44210 /* drop.png in Resources */,
+				0D48925C21C37986003B7B22 /* HabitDetailedViewController.xib in Resources */,
 				0D87BF7221A37A9500C44210 /* tooth.png in Resources */,
 				0D87BF7321A37A9500C44210 /* pill.png in Resources */,
 				0D87BF7721A37A9500C44210 /* grow.png in Resources */,
@@ -468,6 +497,7 @@
 				0D87BF5A21A37A9500C44210 /* gym.png in Resources */,
 				0D87BF5F21A37A9500C44210 /* other.png in Resources */,
 				0D87BF6921A37A9500C44210 /* book.png in Resources */,
+				0D48925821C35807003B7B22 /* ConfirmHabitViewController.xib in Resources */,
 				0D87BF8121A37A9500C44210 /* food.png in Resources */,
 				0D87BF7E21A37A9500C44210 /* heart.png in Resources */,
 				0D87BF8621A37A9500C44210 /* pet.png in Resources */,
@@ -486,6 +516,7 @@
 				0D87BF1E21A3767100C44210 /* dayofDead.jpg in Resources */,
 				0D87BF6F21A37A9500C44210 /* drop.png in Resources */,
 				0D87BF7521A37A9500C44210 /* clock.png in Resources */,
+				0D3BFFF121B701970032994A /* AddHabitViewController.xib in Resources */,
 				0D87BF5E21A37A9500C44210 /* drop.png in Resources */,
 				0D87BF6421A37A9500C44210 /* clock.png in Resources */,
 				0D87BF7421A37A9500C44210 /* lotus.png in Resources */,
@@ -528,7 +559,12 @@
 				0D87BF9021A40D7700C44210 /* PersistenceLayer.swift in Sources */,
 				0D1DBB91219E0A1300CD0C4A /* AppDelegate.swift in Sources */,
 				0D1DBBC3219E1B0800CD0C4A /* HabitsTableViewController.swift in Sources */,
+				0D48925221C352B1003B7B22 /* DateExtension.swift in Sources */,
 				0D87BF8D21A393A700C44210 /* HabitTableViewCell.swift in Sources */,
+				0D48925721C35807003B7B22 /* ConfirmHabitViewController.swift in Sources */,
+				0D3BFFF421B70DA40032994A /* HabitImageCollectionViewCell.swift in Sources */,
+				0D3BFFF021B701970032994A /* AddHabitViewController.swift in Sources */,
+				0D48925B21C37986003B7B22 /* HabitDetailedViewController.swift in Sources */,
 				0D87BF1C219FCFEA00C44210 /* DateExtensions.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -609,6 +645,7 @@
 				CLANG_WARN_UNREACHABLE_CODE = YES;
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
 				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COMPRESS_PNG_FILES = NO;
 				COPY_PHASE_STRIP = NO;
 				DEBUG_INFORMATION_FORMAT = dwarf;
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
@@ -632,6 +669,7 @@
 				MTL_FAST_MATH = YES;
 				ONLY_ACTIVE_ARCH = YES;
 				SDKROOT = iphoneos;
+				STRIP_PNG_TEXT = NO;
 				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
 				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 			};
@@ -670,6 +708,7 @@
 				CLANG_WARN_UNREACHABLE_CODE = YES;
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
 				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COMPRESS_PNG_FILES = NO;
 				COPY_PHASE_STRIP = NO;
 				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
 				ENABLE_NS_ASSERTIONS = NO;
@@ -686,6 +725,7 @@
 				MTL_ENABLE_DEBUG_INFO = NO;
 				MTL_FAST_MATH = YES;
 				SDKROOT = iphoneos;
+				STRIP_PNG_TEXT = NO;
 				SWIFT_COMPILATION_MODE = wholemodule;
 				SWIFT_OPTIMIZATION_LEVEL = "-O";
 				VALIDATE_PRODUCT = YES;
